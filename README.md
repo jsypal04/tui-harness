@@ -1,6 +1,6 @@
-# Jev Harness
+# TUI Harness
 
-This is a harness to allow jev to control my TUI applications.
+This is a harness to allow an agent (I have jev in mind) to control my TUI applications.
 
 This is the general architecture that I have in mind:
 
@@ -14,6 +14,6 @@ would see
 **Harness**:
 - Listen for state updates on the unix socket.
 - Parse the state, make it into something compatible with jev
-- Get jev to decided when the next action should be
+- Get agent to decided when the next action should be
     - Each action should map to a key stroke to be sent to the terminal app's stdin.
 - Send the key stroke to the terminal app's stdin.
