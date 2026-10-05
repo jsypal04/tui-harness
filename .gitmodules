@@ -1,0 +1,3 @@
+[submodule "cjson"]
+	path = cjson
+	url = git@github.com:jsypal04/cjson.git
